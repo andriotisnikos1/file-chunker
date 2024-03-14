@@ -1,0 +1,1 @@
+export default (m: string) => {throw new Error(`[TripleDot Error] ${m}`)};

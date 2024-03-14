@@ -1,0 +1,12 @@
+{
+  "name": "@andriotis/triple-dot",
+  "dependencies": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "link": "tsc && npm link"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "typescript": "^5.4.2"
+  }
+}
