@@ -1,10 +1,12 @@
 {
   "name": "@andriotis/triple-dot",
-  "dependencies": {},
+  "version": "0.0.12",
   "main": "dist/index.js",
   "scripts": {
-    "link": "tsc && npm link"
+    "link": "tsc && npm link",
+    "prepublish": "tsc"
   },
+  "type": "module",
   "devDependencies": {
     "@types/node": "^20.11.27",
     "typescript": "^5.4.2"
